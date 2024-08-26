@@ -1,50 +1,1924 @@
 {
-    "company": "Tech Innovators Inc.",
-    "location": "San Francisco, CA",
-    "employees": [
+    "novel": [
       {
-        "employee_id": 101,
-        "name": "John Doe",
-        "position": "Software Engineer",
-        "department": "Engineering",
-        "email": "johndoe@techinnovators.com",
-        "hire_date": "2021-05-10",
-        "salary": 90000,
-        "full_time": true,
-        "projects": ["Project Alpha", "Project Beta"]
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
       },
       {
-        "employee_id": 102,
-        "name": "Jane Smith",
-        "position": "Product Manager",
-        "department": "Product",
-        "email": "janesmith@techinnovators.com",
-        "hire_date": "2019-07-22",
-        "salary": 105000,
-        "full_time": true,
-        "projects": ["Project Gamma"]
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
       },
       {
-        "employee_id": 103,
-        "name": "Robert Johnson",
-        "position": "UI/UX Designer",
-        "department": "Design",
-        "email": "robertjohnson@techinnovators.com",
-        "hire_date": "2020-09-14",
-        "salary": 85000,
-        "full_time": false,
-        "projects": ["Project Delta", "Project Epsilon"]
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
       },
       {
-        "employee_id": 104,
-        "name": "Emily Davis",
-        "position": "Data Analyst",
-        "department": "Data Science",
-        "email": "emilydavis@techinnovators.com",
-        "hire_date": "2022-02-28",
-        "salary": 78000,
-        "full_time": true,
-        "projects": ["Project Zeta", "Project Eta"]
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
+      }, 
+      {
+        "title_name": "The Quantum Enigma",
+        "author": "Dr. Evelyn Carter",
+        "summary": "A brilliant physicist delves into the mysteries of quantum mechanics, leading her to uncover a groundbreaking theory that could change the world.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Last Dragon",
+        "author": "Kai Chen",
+        "summary": "A young warrior must protect the last surviving dragon from a powerful sorcerer seeking to harness its ancient magic.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "summary": "A collection of short stories exploring human colonization of Mars and the challenges faced by the early settlers.",
+        "genre": "Sci-Fi"
+      },
+      {
+        "title_name": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "summary": "A love story between a man with a genetic disorder that causes him to involuntarily time travel and the woman who loves him unconditionally.",
+        "genre": "Romance"
+      },
+      {
+        "title_name": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "summary": "A humorous Sci-Fi adventure following the misadventures of Arthur Dent, a man who finds himself on an intergalactic journey after the Earth is destroyed.",
+        "genre": "Sci-Fi, Comedy"
+      },
+      {
+        "title_name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "summary": "An epic fantasy trilogy following the hobbit Frodo Baggins as he embarks on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+        "genre": "High Fantasy"
+      },
+      {
+        "title_name": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "summary": "A dystopian novel set in a future where young people are forced to fight to the death in a televised competition.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "summary": "A dystopian novel set in a future where women are stripped of their rights and forced into reproductive servitude.",
+        "genre": "Dystopian, Sci-Fi"
+      },
+      {
+        "title_name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "summary": "A historical fiction novel about a man who seeks revenge on those who wrongfully imprisoned him.",
+        "genre": "Historical Fiction"
+      },
+      {
+        "title_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "summary": "A classic American novel about the excesses of the Jazz Age and the pursuit of the American Dream.",
+        "genre": "Historical Fiction"
       }
     ]
   }

@@ -1,10 +1,62 @@
+body {
+    background-image: linear-gradient(to right, #0a0a0e, #110344);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 98vw;
+    margin-top: 100px;
+}
+
 .announcementBox {
-    border: black 2px solid;
+    border: rgb(255, 255, 255) 2px solid;
+    background-color: white;
+    width: 85%;
+}
+
+.filterGenreBox {
+    background-color: white;
+    width: 85%;
+    height: 30px;
+}
+
+.informationBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.btn-primary {
+    display: flex;
+    justify-content: center;
+    background-color: #110344;
+    border: 0;
+}
+
+.card {
+    width: 30%;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title, .card-author {
+    text-align: center;
+}
+
+.card-img img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 
 .card-text {
+    text-align: center;
     height: min-content;
     max-height: 100px;
+    margin-top: -20px;
+    line-height: 1.5;
+    padding: 15px;
     overflow-y: scroll;
 }
 
@@ -12,8 +64,29 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    justify-content: flex-start;
+    margin-left: -40px;
 }
 
 .card-tag li {
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 10px;
     padding-right: 5px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        width: 60%; /* Two cards per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%; /* One card per row on mobile screens */
+    }
 }

@@ -5,41 +5,87 @@
         <!-- Import CSS and Bootstrap -->
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <link href="index.css" rel="stylesheet" type="text/css">
+        <link href="navbar.css" rel="stylesheet" type="text/css">
         <!-- Title -->
         <title>รวมนิยายแฟนตาซีคนไทย</title>
         <!-- Icon -->
 
     </head>
     <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="/" class="navbar-brand">THAI FANTASY NOVEL</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar5">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar5">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item active">
+                            <a href="/" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">AUTHOR</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">GENRE</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/">Arthurian Fantasy</a></li>
+                               
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">TAG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">DETAILS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <!-- Announcement Box -->
         <div class="container mt-5 py-3 px-3 announcementBox">
-            <h2>ประกาศ</h2>
+            <h2>Announcement</h2>
             <ul>
                 <li>Lorem ipsum dolor sit amet</li>
                 <li>Consectetur adipiscing elit</li>
                 <li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
             </ul>
         </div>
+        <!-- Filter Novel Genre -->
+        <div class="container mt-5 filterGenreBox">เดี๋ยวจะใส่ Filter เลือกประเภทเพื่อรีเฟรชงานในหน้ารวมตรงนี้</div>
         <!-- Information -->
-        <div class="container mt-5">
-            <div class="card" style="width: 16rem;">
-                <img src="https://via.placeholder.com/100" class="card-img-top" alt="หน้าปกนิยาย">
-                <div class="card-body">
-                    <h5 class="card-title">ชื่อเรื่อง</h5>
-                    <ul class="card-tag">
-                        <li>Action</li>
-                        <li>Romantic</li>
-                    </ul>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
+        <div class="container mt-5 informationBox">
+           <!-- Data from .json File -->
         </div>
-
+        <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
         <!-- Import Script -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="javascript/index.js"></script>
+        <script> 
+            function scrollToTop() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            }
+
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                let scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    scrollToTopBtn.style.display = "block";
+                } else {
+                    scrollToTopBtn.style.display = "none";
+                }
+            }
+        </script>
     </body>
 </html>
