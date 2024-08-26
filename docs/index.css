@@ -1,0 +1,19 @@
+.announcementBox {
+    border: black 2px solid;
+}
+
+.card-text {
+    height: min-content;
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+.card-tag {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.card-tag li {
+    padding-right: 5px;
+}
