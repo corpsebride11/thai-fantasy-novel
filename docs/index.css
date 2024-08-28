@@ -88,5 +88,46 @@ body {
 @media (max-width: 480px) {
     .card {
         width: 100%; /* One card per row on mobile screens */
+        height: 250px;
+    }
+
+    .cardImgBox, .card-img, .card-img img {
+        padding: 15px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-title {
+        margin-top: -140px;
+        font-size: 14pt;
+    }
+
+    .card-author {
+        font-size: 10pt;
+    }
+
+    .card-text {
+        margin-top: -17px;
+        font-size: 11pt;
+        margin-left: 135px;
+        text-align: left;
+        line-height: 1.35;
+        max-height: 85px;
+        position: absolute;
+    }
+
+    .card-title, .card-author {
+        margin-left: 150px;
+        text-align: left;
+    }
+
+    .card-tag {
+        margin-left: -23px;
+        margin-top: 80px;
+        position: absolute;
+    }
+
+    .viewMoreBtn {
+        visibility: hidden;
     }
 }

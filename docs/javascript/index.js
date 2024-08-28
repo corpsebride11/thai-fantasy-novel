@@ -58,8 +58,7 @@ async function assignNovel() {
                 
                 cardText.classList.add('card-text');
 
-                cardBtn.classList.add('btn');
-                cardBtn.classList.add('btn-primary');
+                cardBtn.classList.add('btn', 'btn-primary', 'viewMoreBtn');
         
                 cardTitle.textContent = title;
                 cardAuthor.textContent = author;
